@@ -38,7 +38,7 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
-    if (index < 6) {
+    if (index <6) {
     forecastHTML =
       forecastHTML +
       `
@@ -52,8 +52,8 @@ function displayForecast(response) {
           width="42"
         />
         <div class="weather-forecast-temperatures">
-          <span class="forecast-temperature-max"> ${Math.round(forecastDay.temp.max)}º </span>
-          <span class="forecast-temperature-min"> ${Math.round(forecastDay.temp.min)}º </span>
+          <span class="forecast-temperature-max"> ${Math.round(forecastDay.temp.max)}ºC </span>
+          <span class="forecast-temperature-min"> ${Math.round(forecastDay.temp.min)}ºC </span>
         </div>
       </div>
   `;
@@ -96,7 +96,6 @@ function search(city) {
   let apiKey = "134e5a98760d0e4fd02686528d50e7f3";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
-  console.log(apiUrl)
 }
 
 function handleSubmit(event) {

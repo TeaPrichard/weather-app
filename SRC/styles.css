@@ -5,7 +5,7 @@ body {
 .container {
   display: block;
   font-family: monospace;
-  max-width: 800px;
+  max-width: 1000px;
   background: rgb(254, 254, 254);
   border: 1px solid #dadde1;
   padding: 15px;
@@ -133,23 +133,23 @@ h2 {
 }
 
 #forecast {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .weather-forecast-temperatures {
-  width: 100px;
   text-align: left;
+  width: 75px;
 }
 
 .forecast-temperature-max {
   color: cornflowerblue;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .forecast-temperature-min {
   color: cornflowerblue;
-  opacity: 0.65;
-  font-size: 15px;
+  opacity: 0.7;
+  font-size: 13px;
 }
 
 .sourceFooter {
