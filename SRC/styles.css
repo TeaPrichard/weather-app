@@ -122,7 +122,7 @@ h2 {
   text-transform: capitalize;
 }
 
-.WeatherForecast {
+.weatherForecast {
   padding: 20px;
   text-align: center;
   color: rgb(69, 69, 219);
@@ -132,13 +132,24 @@ h2 {
   padding: 10px;
 }
 
+#forecast {
+  padding-left: 20px;
+}
+
+.weather-forecast-temperatures {
+  width: 100px;
+  text-align: left;
+}
+
 .forecast-temperature-max {
   color: cornflowerblue;
+  font-size: 15px;
 }
 
 .forecast-temperature-min {
   color: cornflowerblue;
   opacity: 0.65;
+  font-size: 15px;
 }
 
 .sourceFooter {
