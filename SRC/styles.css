@@ -74,6 +74,11 @@ h1 {
   padding: 7px;
 }
 
+.units .active {
+  color: rgb(30, 30, 148);
+  cursor: default;
+}
+
 .celsius {
   text-decoration: none;
   color: cornflowerblue;
